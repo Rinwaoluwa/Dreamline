@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dreamline - Transform Your Goals Into Reality. By Peter Odejobi.
 
-## Getting Started
+A modern task management application that guides you through personal metamorphosis and evolution, turning aspirations into achievable milestones.
 
-First, run the development server:
+![Dreamline Screenshot](./public/images/dashboard.png)
+[Watch Demo Video](https://drive.google.com/file/d/1wQbzn0mQ8Atezl9neBjBX9UuX_Q52Vq8/view?usp=sharing)
 
+
+## 🦋 Theme Alignment: Metamorphosis & Evolution
+
+Dreamline embodies themes of transformation and personal growth:
+
+### Metamorphosis & Evolution
+- Tasks evolve through stages (Todo → In Progress → Done)
+- Visual Kanban board represents stages of transformation
+- Archive system maintains history of growth
+- Priority levels reflect evolving importance
+
+### Emotional Journey
+- Motivational quotes provide emotional support
+- Color psychology in UI reflects different states:
+  - Warm tones (Todo): Beginning and potential
+  - Cool blues (In Progress): Focus and determination
+  - Fresh greens (Done): Achievement and growth
+
+### Beauty of Change
+- Smooth animations visualize transitions
+- Intuitive drag-and-drop represents fluid change
+- Multiple views celebrate different aspects of progress
+
+## 🤖 GitHub Copilot Integration
+
+GitHub Copilot enhanced development through:
+- Smart component suggestions
+- Animation implementations
+- Type safety recommendations
+- Code optimization hints
+- Real-time debugging assistance
+
+## 🚀 Features
+
+- **Kanban Board**: Visual task management
+- **Priority Levels**: Task importance tracking
+- **Due Dates**: Time management
+- **Archive System**: Progress history
+- **Responsive Design**: Multi-device support
+- **Animations**: Enhanced UX
+- **Multiple Views**: Task organization flexibility
+
+## 🛠️ Technical Stack
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Radix UI
+- dnd-kit
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
+git clone https://github.com/Rinwaoluwa/Dreamline.git
+cd dreamline
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
